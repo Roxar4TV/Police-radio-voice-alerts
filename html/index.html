@@ -1,0 +1,16 @@
+<html>
+<body>
+<audio id="rxpdsound"></audio>
+
+<script>
+window.addEventListener('message', function(event) {
+    if (event.data.action === "rxpdplay") {
+        var audio = document.getElementById("rxpdsound");
+        audio.src = "sounds/" + event.data.file + ".ogg";
+        audio.volume = 1.0;
+        audio.play();
+    }
+});
+</script>
+</body>
+</html>
