@@ -1,4 +1,4 @@
-# 📡 Roxarek Police Radio Sounds
+# 📡 Roxarek Police radio voice alerts
 
 Prosty system odtwarzania dźwięków policyjnego radia w FiveM z użyciem NUI.  
 Działa z plikami `.ogg` i pozwala odtwarzać je dla wybranego gracza lub całego serwera.
